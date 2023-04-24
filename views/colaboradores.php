@@ -300,29 +300,6 @@ if (!isset($_SESSION['login']) || $_SESSION['login'] == false){
           });
           }
         })
-
-
-
-
-
-        // if (confirm("¿Esta seguro de eliminar este registro?")){
-        //     const idsoftware = $(this).attr("data-codigo");
-          
-        //     const datos ={
-        //         'operation'       :   'eliminar',
-        //         'idcolaborador'   :   idcolaborador
-        //     };
-
-        //     $.ajax({
-        //       url: '../controllers/colaboradores.controller.php',
-        //       type: 'POST',
-        //       data: datos,
-        //       success: function (e){
-        //         listarColaboradores();
-        //       }
-        //   });
-        // }
-        
       });
 
       
